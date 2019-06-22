@@ -40,7 +40,7 @@ app.get('/home' , (req,res) => {
 app.get('/help' , (req,res) => {
     res.render('help' , {
         name: 'Pulkit',
-        type:'Help'.
+        type:'Help',
         helpText: 'Help yourself'
     })
 })
